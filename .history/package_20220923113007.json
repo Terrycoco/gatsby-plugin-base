@@ -1,0 +1,30 @@
+{
+  "name": "@coco-react/gatsby-plugin-base",
+  "version": "1.0.0",
+  "description": "Basis for starting a gatsby plugin",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir ./ --source-maps",
+    "watch": "babel src --out-dir ./ --source-maps --watch",
+    "test": "jest --color",
+    "lint": "eslint --ext js ./ --cache",
+    "format": "prettier --write 'src/*.js'"
+  },
+  "author": "Coco",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.19.0"
+  },
+  "peerDependencies": {
+    "gatsby": ">2.0.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
