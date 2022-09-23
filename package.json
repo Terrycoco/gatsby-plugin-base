@@ -24,7 +24,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-babel": "^5.3.1",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "reading-time": "^1.5.0"
   },
   "peerDependencies": {
     "gatsby": ">2.0.0"
