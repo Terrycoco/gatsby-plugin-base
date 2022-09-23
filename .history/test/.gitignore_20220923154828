@@ -1,0 +1,4 @@
+gatsby-*
+!src/**
+!test/**
+
