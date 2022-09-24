@@ -24,6 +24,7 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.18.6",
     "@babel/runtime": "^7.19.0",
     "reading-time": "^1.5.0"
   },
